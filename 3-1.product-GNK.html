@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAISER PLUS</title>
+  <style>
+    @font-face {
+      font-family: 'S-CoreDream';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'S-CoreDream';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'S-CoreDream', sans-serif;
+      background: #f5f5f5;
+      color: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    header h1 {
+      font-size: clamp(3rem, 6vw, 8rem);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: clamp(1.2rem, 2vw, 2rem);
+      color: #555;
+      margin-top: 1rem;
+    }
+
+    .options {
+      display: flex;
+      gap: 3rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1400px;
+      width: 100%;
+    }
+
+    .option-button {
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 15px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem;
+      width: 400px;
+      min-height: 500px;
+      transition: transform 0.3s, background 0.3s;
+      text-align: center;
+    }
+
+    .option-button:hover {
+      background: #222;
+      transform: translateY(-5px);
+    }
+
+    .option-button img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: contain;
+      background: #111;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .option-button span {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 1024px) {
+      .option-button {
+        width: 300px;
+        min-height: 400px;
+      }
+
+      .option-button span {
+        font-size: 1.8rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 4rem;
+      }
+
+      .options {
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      .option-button {
+        width: 100%;
+        max-width: 500px;
+        min-height: 400px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>HDB Gate Lock</h1>
+    <p>Perfect for dual-entry doors, dementia care facilities, and correctional institutions—engineered for secure
+      two-way access.</p>
+  </header>
+
+  <div class="options">
+    <a href="4-1.M-1192GNK.html" class="option-button">
+      <img src="images/[CO] M-1192GNK.png" alt="M-1192GNK">
+      <span>M-1192GNK</span>
+    </a>
+
+    <a href="4-2.M-1491GNK.html" class="option-button">
+      <img src="images/[CO] M-1491GNK.png" alt="M-1491GNK">
+      <span>M-1491GNK</span>
+    </a>
+
+    <a href="4-3.M-1500GNK.html" class="option-button">
+      <img src="images/[CO] M-1500GNK.png" alt="M-1500GNK">
+      <span>M-1500GNK</span>
+    </a>
+
+    <a href="4-4.M-1590GNK.html" class="option-button">
+      <img src="images/[CO] M-1590GNK.png" alt="M-1500GNK">
+      <span>M-1590GNK</span>
+    </a>
+
+    <a href="4-5.M-1593GNK.html" class="option-button">
+      <img src="images/[CO] M-1593GNK.png" alt="M-1500GNK">
+      <span>M-1593GNK</span>
+    </a>
+  </div>
+</body>
+
+</html>
